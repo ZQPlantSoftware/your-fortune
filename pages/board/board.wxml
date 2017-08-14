@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="head">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{photos}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item.src}}" class="slide-image" mode="aspectFill" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="header">
+      <text class="title">Your Fortune</text>
+      <text class="description">We predict for your future</text>
+    </view>
+  </view>
+  <view class="body">
+    <scroll-view scroll-y="true" height="100%">
+      <block wx:for="{{boards}}" wx:key="{{index}}">
+        <navigator url="{{item.link}}" open-type="{{item.type}}">
+          <view class="board-info">
+            <text class="board-name">{{item.name}}</text>
+            <image class="board-img" src="/images/board/arrowright.png" mode="aspectFill" />
+          </view>
+        </navigator>
+      </block>
+    </scroll-view>
+  </view>
+</view>
