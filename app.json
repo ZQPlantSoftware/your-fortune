@@ -1,9 +1,27 @@
 {
   "pages":[
+    "pages/today/today",
+    "pages/predict/predict",
     "pages/board/board",
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "color": "#7f848a",
+    "selectedColor": "#7acfa6",
+    "backgroundColor": "#f7f6fb",
+    "list": [{
+        "pagePath": "pages/today/today",
+        "text": "Today",
+        "iconPath": "images/index/index.png",
+        "selectedIconPath": "images/index/index@active.png"
+    }, {
+        "pagePath": "pages/predict/predict",
+        "text": "Predict",
+        "iconPath": "images/index/more.png",
+        "selectedIconPath": "images/index/more@active.png"
+    }]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

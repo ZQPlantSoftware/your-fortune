@@ -28,7 +28,7 @@ App({
       this._user.zq = res.data.data.user
       _this.globalData.token = res.data.data.token
     })
-  }
+  },
   getUserInfo: function(cb) {
     var that = this
     if (this.globalData.userInfo) {
@@ -45,7 +45,6 @@ App({
       })
     }
   },
-
   globalData: {
     userInfo: null,
     showApi: 'http://route.showapi.com',
