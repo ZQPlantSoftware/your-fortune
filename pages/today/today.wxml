@@ -1,0 +1,36 @@
+<view class="container today">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">Constellation</view>
+    <view class="weui-panel__bd">
+
+    </view>
+    <view class="weui-panel__ft">
+        <view class="weui-cell weui-cell_access weui-cell_link">
+            <view class="weui-cell__bd">查看更多</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+    </view>
+  </view>
+
+
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">User Info</view>
+    <view class="weui-panel__bd">
+
+    </view>
+  </view>
+
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">Constellation</view>
+    <view class="weui-panel__bd">
+
+    </view>
+  </view>
+
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">Calendar</view>
+    <view class="weui-panel__bd">
+
+    </view>
+  </view>
+</view>

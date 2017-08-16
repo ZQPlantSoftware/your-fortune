@@ -1,0 +1,3 @@
+.today .weui-panel {
+  width: 100%;
+}
